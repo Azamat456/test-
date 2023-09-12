@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600&family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&family=Nunito+Sans:opsz,wght@6..12,600;6..12,800&family=Overpass:wght@700&family=Poppins:wght@500&family=Raleway:wght@500;700&family=Red+Hat+Text:wght@500&family=Roboto:wght@500&family=Rubik:wght@500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+    html,body{
+        display: flex;
+        width: 100vw;
+        height: 100vh;
+        padding: 195px 0px 189px 0px;
+        justify-content: center;
+        align-items: center;
+        background: var(--very-dark-blue, #131518); 
+        .container{
+            position: relative;
+            width: 412px;
+            height: 416px;
+            border-radius: 30px;
+            background: var(--black-gradient, radial-gradient(98.96% 98.96% at 50.00% 0%, #232A34 0%, #181E27 100%));
+            .form{
+                display: flex;
+                justify-content: center;
+                margin-top: 45px;
+            }
+            .text {
+                // width: 193px;
+                // height: 32px;
+                // border-radius: 22.5px;
+                // background: var(--dark-blue, #262E38);
+                margin-top: 36px;
+                color: var(--orange, #FC7614);
+                text-align: center;
+                font-family: Overpass;
+                font-size: 15px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 24px;
+                .celebration{
+                    color: #FFF;
+                    font-feature-settings: 'clig' off, 'liga' off;
+                    margin-top: 36px;
+                    font-family: Overpass;
+                    font-size: 28px;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: normal;
+                    .info{
+                        color: var(--light-grey, #969FAD);
+                        text-align: center;
+                        font-feature-settings: 'clig' off, 'liga' off;
+                        font-family: Overpass;
+                        font-size: 15px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: 24px; 
+                        width: 340px;
+                        margin: 7px 0px 0px 32px;
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600&family=Nunito+Sans:opsz,wght@6..12,600;6..12,800&family=Poppins:wght@500&family=Red+Hat+Text:wght@500&family=Rubik:wght@500&display=swap');
+*{
+  margin: 0;
+}
+.flex-container{
+  display: flex;
+  position: relative;
+}
+.image2{
+  position: absolute;
+  left:310px;
+  top:100px ;
+}
+
+.eee{
+  width: 300px;
+  font-family: Rubik;
+  position: absolute;
+  top:100px ;
+  left: 450px;
+  
+}
+.under{
+  color: #A39DA9;
+  font-family: Rubik;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+  width: 400px;
+  position: absolute;
+  top: 150px;
+  left: 400px;
+}
+.image3{
+  
+  position: absolute;
+  left: 1190px;
+}

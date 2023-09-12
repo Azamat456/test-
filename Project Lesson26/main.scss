@@ -1,0 +1,832 @@
+@import url("https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  .container {
+    margin: 0 auto;
+    max-width: 1540px;
+    height: 100%;
+    .wrapper {
+      max-width: 1500px;
+      height: 100%;
+      background-color: #FFF;
+      .head { 
+        padding: 24px 110px 24px 180px;
+        
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        .global {
+          display: flex;
+          height: 20px;
+          color: #000;
+          font-family: Dela Gothic One;
+          font-size: 20.861px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: 100%; 
+          letter-spacing: -0.417px;
+          // border-right: 1px solid #E0E0E0;
+        }
+        ul{
+          display: flex;
+          li{
+            list-style-type:none;
+            font-family: Montserrat;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: 140%; /* 22.4px */
+            letter-spacing: -0.64px;
+            margin: 0px 30px 0px 30px;
+          }
+        }
+        .alex{
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          img{
+            margin: 0px 10px 0px 0px;
+          }
+          .name{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            color:  #757575;
+            font-family: Montserrat;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: 140%; /* 22.4px */
+            letter-spacing: -0.64px;
+            margin: 0px 30px 0px 0px;
+            
+          }
+        }
+      }
+    }
+    .stage1{
+      max-width: 1540px;
+      height: 100%;
+      
+      .nimadir1{
+        background-color:#E0E0E0;
+        max-width: 1540px;
+        
+        .nimadir2{
+          padding: 24px 0px 24px 180px;
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          max-width: 1540px;
+          .learn1{
+            max-width: 300px;
+            .platform{
+              color:#2B788B;
+              font-family: Montserrat;
+              font-size: 16px;
+              font-weight: 700;
+              line-height: 100%; 
+              letter-spacing: 2.24px;
+              text-transform: uppercase;
+            }
+            .advice{
+              margin-top:24px;
+              max-width: 131px;
+              color: #000;
+              font-family: Dela Gothic One;
+              font-style: normal;
+              font-size: 56px;
+              font-style: normal;
+              font-weight: 400;
+              line-height: 120%;
+              letter-spacing: -2.24px;
+            }
+            .practice{
+              color: #757575;
+              margin-top:30px ;
+              max-width: 396.886px;
+              font-family: Montserrat;
+              font-size: 18px;
+              font-style: normal;
+              font-weight: 600;
+              line-height: 140%; /* 25.2px */
+              letter-spacing: -0.72px;
+            }
+            .button{
+              margin-top: 32px;
+              max-width: 165px;
+              height: 44px;
+              background-color: #C3DCE3;
+              padding: 14px 22px;
+              border-radius: 100px;
+              .button_text{
+                color: #2B788B;
+                font-family: Montserrat;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 100%; /* 16px */
+                letter-spacing: -0.64px;
+              } 
+            }
+            .rating{
+              margin-top: 53px;
+              width:352px ;
+              display: flex;
+              justify-content: space-between;
+            }
+          }
+          .learn2{
+            img{
+              max-width: fit-content;
+            }
+          }
+          
+        }    
+      } 
+    }
+    
+    
+    
+    .stage2{
+      width: 100%;
+      height: 100%;
+      
+      .nimadir2{
+        background: #FFF;
+        width: 100%;
+        
+        .nimadir3{
+          padding: 24px 110px 24px 180px;
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          .hand1{
+            // width: 531px;
+          }
+          .rating{
+            margin-top: 53px;
+            width:352px ;
+            display: flex;
+            justify-content: space-between;
+          }
+        }
+        .hand2{
+          .advice2{
+            max-width: 474.464px;
+            font-family: Dela Gothic One;
+            font-size: 48px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 100%; /* 48px */
+            letter-spacing: -1.92px;
+          }
+          .practice2{
+            color: #757575;
+            margin-top:30px ;
+            max-width: 396.886px;
+            font-family: Montserrat;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: 140%; /* 25.2px */
+            letter-spacing: -0.72px;
+          }
+          .rating2{
+            display: flex;
+            .jostik2{
+              margin-left: 21px;
+            }
+          }
+        }
+        
+      }    
+    } 
+    
+    
+    
+    .stage3{
+      width: 100%;
+      height: 100%;
+      
+      .nimadir3{
+        background-color:#F6F5F4;
+        width: 100%;
+        
+        padding: 24px 110px 24px 180px;
+        .nimadir4{
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          .blog1{
+            // width: 531px;
+            
+            .advice4{
+              font-family: Dela Gothic One;
+              font-size: 48px;
+              font-style: normal;
+              font-weight: 400;
+              line-height: 100%; /* 48px */
+              letter-spacing: -1.92px;
+              color: #000;
+              max-width: 474.464px;
+            }
+            .practice4{
+              color: #757575;
+              margin-top:30px ;
+              max-width: 396.886px;
+              font-family: Montserrat;
+              font-size: 18px;
+              font-style: normal;
+              font-weight: 600;
+              line-height: 140%; /* 25.2px */
+              letter-spacing: -0.72px;
+            }
+            .button4{
+              margin-top: 32px;
+              width: 165px;
+              height: 44px;
+              background-color: #C3DCE3;
+              padding: 14px 24px;
+              border-radius: 100px;
+              .button_text4{
+                color: #2B788B;
+                font-family: Montserrat;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 100%; /* 16px */
+                letter-spacing: -0.64px;
+              } 
+            }
+          }
+          .blog2{
+            img{
+              background-image:none;
+              max-width: fit-content;
+              
+            }
+          } 
+        }    
+      }
+    }
+    
+    
+    .stage4{
+      width: 100%;
+      height: 100%;
+      
+      .nimadir4{
+        background: #FFF;
+        width: 100%;
+        
+        padding: 24px 110px 24px 180px;
+        .nimadir5{
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          .right1{
+            // width: 531px;
+          }
+          .left2{
+            .advice5{
+              max-width: 474.464px;
+              font-family: Dela Gothic One;
+              font-size: 48px;
+              font-style: normal;
+              font-weight: 400;
+              line-height: 100%; /* 48px */
+              letter-spacing: -1.92px;
+            }
+            .practice5{
+              color: #757575;
+              margin-top:30px ;
+              max-width: 396.886px;
+              font-family: Montserrat;
+              font-size: 18px;
+              font-style: normal;
+              font-weight: 600;
+              line-height: 140%; /* 25.2px */
+              letter-spacing: -0.72px;
+            }
+          }
+          .button4{
+            margin-top: 32px;
+            width: 165px;
+            height: 44px;
+            background-color: #C3DCE3;
+            padding: 14px 24px;
+            border-radius: 100px;
+            .button_text4{
+              color: #2B788B;
+              font-family: Montserrat;
+              font-size: 16px;
+              font-style: normal;
+              font-weight: 700;
+              line-height: 100%; /* 16px */
+              letter-spacing: -0.64px;
+            } 
+          }
+        }    
+      } 
+    }
+    
+    
+    .foot{
+      width: 100%;
+      height: 100%;
+      border-bottom: 1px solid #E0E0E0;
+      .nimadir6{
+        background: #FFF;
+        width: 100%;
+        
+        padding: 24px 110px 24px 180px;
+        .nimadir7{
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          .chap{
+            ul{
+              display: flex;
+              list-style-type: none;
+              li{
+                margin: 0px 30px 0px 0px;
+                color:#757575;
+                font-family: Montserrat;
+                font-size: 14px;
+                font-style: normal;
+                font-weight: 600;
+                line-height: 100%;
+              }
+            }
+          }
+          
+          .ung{
+            ul{
+              display: flex;
+              list-style-type: none;
+              li{
+                margin: 0px 30px 0px 0px;
+                color:#757575;
+                font-family: Montserrat;
+                font-size: 14px;
+                font-style: normal;
+                font-weight: 600;
+                line-height: 100%;
+              }
+            }
+          }
+        }
+      }
+    }
+    
+    
+    
+    footer{
+      .nimadir8{
+        background: #FFF;
+        width: 100%;
+        
+        padding: 24px 110px 24px 180px;
+        .nimadir9{
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          .chap{
+          }
+          
+          .ung{
+          }
+        }
+      }
+    }
+  }
+}
+@media(max-width:1449px){
+  *{
+    .container{
+      .wrapper{
+        .head{
+          ul{
+            display: flex;
+            justify-content: space-evenly;
+            div{
+              max-width: fit-content;
+              
+            }
+            li{
+              max-width: fit-content;
+            }
+          }
+        }
+      }
+      .stage1{
+        .nimadir1{
+          .nimadir2{
+            .learn1{
+              .advice{
+                max-width: fit-content;
+                
+                
+              }
+            }
+            .learn2{
+              img{
+                width: 90%;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+
+
+
+
+
+
+
+@media(max-width:1230px){
+  *{
+    .container{
+      .wrapper{
+        .head{
+          display: flex;
+          justify-content: space-around;
+          ul{
+            display: flex;
+            justify-content: space-evenly;
+            div{
+              max-width: fit-content;
+              display: none;
+            }
+            li{
+              max-width: fit-content;
+              display: none;
+            }
+          }
+        }
+      }
+      .stage1{
+        .nimadir1{
+          .nimadir2{
+            .learn1{
+              .advice{
+                max-width: fit-content;
+                
+                
+              }
+            }
+            .learn2{
+              img{
+                width: 90%;
+              }
+            }
+          }
+        }
+      }
+      .stage2{
+        .nimadir2{
+          .nimadir3{
+            .hand1{
+              img{
+                width: 80%;
+                
+              }
+            }
+          }
+        }
+      }
+      
+      .stage3{
+        .nimadir3{
+          .nimadir4{
+            .blog2{
+              img{
+                width: 85%;
+                
+              }
+            }
+          }
+        }
+      }
+    }
+    
+    
+    
+    .stage4{
+      .nimadir4{
+        .nimadir5{
+          .right1{
+            img{
+              width: 80%;
+              
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+
+
+@media(max-width:950px){
+  *{
+    .container{
+      .wrapper{
+        .head{
+          display: flex;
+          justify-content: space-around;
+          ul{
+            display: flex;
+            justify-content: space-evenly;
+            div{
+              max-width: fit-content;
+              display: none;
+            }
+            li{
+              max-width: fit-content;
+              display: none;
+            }
+          }
+        }
+      }
+      .stage1{
+        .nimadir1{
+          .nimadir2{
+            .learn1{
+              .advice{
+                max-width: fit-content;
+                font-size:30px;
+                
+              }
+              .practice{
+                font-size: 14px;
+              }
+            }
+            .learn2{
+              img{
+                width: 90%;
+              }
+            }
+          }
+        }
+      }
+      .stage2{
+        .nimadir2{
+          .nimadir3{
+            .hand1{
+              img{
+                width: 80%;
+                
+              }
+            }
+            .hand2{
+              .advice2{
+                font-size:30px;
+                
+              }
+              .practice2{
+                font-size: 14px;
+              }
+              .rating2{
+                img{
+                  width: 25%;
+                }
+                .jostik2{
+                  img{
+                    width: 50%;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+      
+      .stage3{
+        .nimadir3{
+          .nimadir4{
+            .blog1{
+              .advice4{
+                font-size: 30px;
+              }
+            }
+            .blog2{
+              img{
+                width: 85%;
+                
+              }
+            }
+          }
+        }
+      }
+    }
+    
+    
+    
+    .stage4{
+      .nimadir4{
+        .nimadir5{
+          .right1{
+            img{
+              display: none;
+              
+            }
+          }
+          .left2{
+            .advice5{
+              p{
+                font-size: 30px;
+              }
+            }
+          }
+          
+        }
+      }
+    }
+    .foot{
+      .nimadir6{
+        .nimadir7{
+          .chap{
+            display: none;
+          }
+          .ung{
+            display: none;
+          }
+        }
+      }
+    }
+  }
+}
+
+
+
+
+
+
+@media(max-width:650px){
+  *{
+    .container{
+      .wrapper{
+        .head{
+          display: flex;
+          justify-content: space-between;
+          ul{
+            display: flex;
+            justify-content: space-evenly;
+            div{
+              max-width: fit-content;
+              display: none;
+            }
+            li{
+              max-width: fit-content;
+              display: none;
+            }
+          }
+          .alex{
+            display: none;
+          }
+        }
+      }
+      .stage1{
+        .nimadir1{
+          .nimadir2{
+            .learn1{
+              // display: flex;
+              // flex-direction: column;
+              // justify-content: center;
+              .advice{
+                max-width: fit-content;
+                font-size:25px;
+                
+              }
+              .practice{
+                // display: flex;
+                // justify-content: center;
+                font-size: 15px;
+                max-width: fit-content;
+              }
+              .rating{
+                // display: flex;
+                // justify-content: center;
+                img{
+                  
+                  display: none;
+                }
+                .jostik{
+                  img{
+                    
+                    display: none;
+                  }
+                }
+              }
+            }
+            .learn2{
+              img{
+                display: none;
+              }
+              
+            }
+          }
+        }
+      }
+      .stage2{
+        .nimadir2{
+          .nimadir3{
+            .hand1{
+              img{
+                display: none;
+                
+              }
+            }
+            .hand2{
+              .advice2{
+                font-size:30px;
+                
+              }
+              .practice2{
+                font-size: 14px;
+              }
+              .rating2{
+                img{
+                  display: none;
+                }
+                .jostik2{
+                  img{
+                    display: none;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+      
+      .stage3{
+        .nimadir3{
+          .nimadir4{
+            .blog1{
+              .advice4{
+                font-size: 30px;
+                max-width: fit-content;
+              }
+            }
+            .blog2{
+              img{
+                display: none;
+                
+              }
+            }
+          }
+        }
+      }
+    }
+    
+    
+    
+    .stage4{
+      .nimadir4{
+        .nimadir5{
+          .right1{
+            img{
+              width: 80%;
+              
+            }
+          }
+          .left2{
+            .advice5{
+              p{
+                font-size: 30px;
+              }
+            }
+          }
+          
+        }
+      }
+    }
+    .foot{
+      .nimadir6{
+        .nimadir7{
+          .chap{
+            display: none;
+          }
+          .ung{
+            display: none;
+          }
+        }
+      }
+    }
+    footer{
+      display: none;
+    }
+  }
+}
+

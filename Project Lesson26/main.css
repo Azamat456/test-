@@ -1,0 +1,551 @@
+@import url("https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+* .container {
+  margin: 0 auto;
+  max-width: 1540px;
+  height: 100%;
+}
+* .container .wrapper {
+  max-width: 1500px;
+  height: 100%;
+  background-color: #FFF;
+}
+* .container .wrapper .head {
+  padding: 24px 110px 24px 180px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+* .container .wrapper .head .global {
+  display: flex;
+  height: 20px;
+  color: #000;
+  font-family: Dela Gothic One;
+  font-size: 20.861px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 100%;
+  letter-spacing: -0.417px;
+}
+* .container .wrapper .head ul {
+  display: flex;
+}
+* .container .wrapper .head ul li {
+  list-style-type: none;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 140%; /* 22.4px */
+  letter-spacing: -0.64px;
+  margin: 0px 30px 0px 30px;
+}
+* .container .wrapper .head .alex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+* .container .wrapper .head .alex img {
+  margin: 0px 10px 0px 0px;
+}
+* .container .wrapper .head .alex .name {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #757575;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 140%; /* 22.4px */
+  letter-spacing: -0.64px;
+  margin: 0px 30px 0px 0px;
+}
+* .container .stage1 {
+  max-width: 1540px;
+  height: 100%;
+}
+* .container .stage1 .nimadir1 {
+  background-color: #E0E0E0;
+  max-width: 1540px;
+}
+* .container .stage1 .nimadir1 .nimadir2 {
+  padding: 24px 0px 24px 180px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1540px;
+}
+* .container .stage1 .nimadir1 .nimadir2 .learn1 {
+  max-width: 300px;
+}
+* .container .stage1 .nimadir1 .nimadir2 .learn1 .platform {
+  color: #2B788B;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 100%;
+  letter-spacing: 2.24px;
+  text-transform: uppercase;
+}
+* .container .stage1 .nimadir1 .nimadir2 .learn1 .advice {
+  margin-top: 24px;
+  max-width: 131px;
+  color: #000;
+  font-family: Dela Gothic One;
+  font-style: normal;
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%;
+  letter-spacing: -2.24px;
+}
+* .container .stage1 .nimadir1 .nimadir2 .learn1 .practice {
+  color: #757575;
+  margin-top: 30px;
+  max-width: 396.886px;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 140%; /* 25.2px */
+  letter-spacing: -0.72px;
+}
+* .container .stage1 .nimadir1 .nimadir2 .learn1 .button {
+  margin-top: 32px;
+  max-width: 165px;
+  height: 44px;
+  background-color: #C3DCE3;
+  padding: 14px 22px;
+  border-radius: 100px;
+}
+* .container .stage1 .nimadir1 .nimadir2 .learn1 .button .button_text {
+  color: #2B788B;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 100%; /* 16px */
+  letter-spacing: -0.64px;
+}
+* .container .stage1 .nimadir1 .nimadir2 .learn1 .rating {
+  margin-top: 53px;
+  width: 352px;
+  display: flex;
+  justify-content: space-between;
+}
+* .container .stage1 .nimadir1 .nimadir2 .learn2 img {
+  max-width: -moz-fit-content;
+  max-width: fit-content;
+}
+* .container .stage2 {
+  width: 100%;
+  height: 100%;
+}
+* .container .stage2 .nimadir2 {
+  background: #FFF;
+  width: 100%;
+}
+* .container .stage2 .nimadir2 .nimadir3 {
+  padding: 24px 110px 24px 180px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+* .container .stage2 .nimadir2 .nimadir3 .rating {
+  margin-top: 53px;
+  width: 352px;
+  display: flex;
+  justify-content: space-between;
+}
+* .container .stage2 .nimadir2 .hand2 .advice2 {
+  max-width: 474.464px;
+  font-family: Dela Gothic One;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 100%; /* 48px */
+  letter-spacing: -1.92px;
+}
+* .container .stage2 .nimadir2 .hand2 .practice2 {
+  color: #757575;
+  margin-top: 30px;
+  max-width: 396.886px;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 140%; /* 25.2px */
+  letter-spacing: -0.72px;
+}
+* .container .stage2 .nimadir2 .hand2 .rating2 {
+  display: flex;
+}
+* .container .stage2 .nimadir2 .hand2 .rating2 .jostik2 {
+  margin-left: 21px;
+}
+* .container .stage3 {
+  width: 100%;
+  height: 100%;
+}
+* .container .stage3 .nimadir3 {
+  background-color: #F6F5F4;
+  width: 100%;
+  padding: 24px 110px 24px 180px;
+}
+* .container .stage3 .nimadir3 .nimadir4 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+* .container .stage3 .nimadir3 .nimadir4 .blog1 .advice4 {
+  font-family: Dela Gothic One;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 100%; /* 48px */
+  letter-spacing: -1.92px;
+  color: #000;
+  max-width: 474.464px;
+}
+* .container .stage3 .nimadir3 .nimadir4 .blog1 .practice4 {
+  color: #757575;
+  margin-top: 30px;
+  max-width: 396.886px;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 140%; /* 25.2px */
+  letter-spacing: -0.72px;
+}
+* .container .stage3 .nimadir3 .nimadir4 .blog1 .button4 {
+  margin-top: 32px;
+  width: 165px;
+  height: 44px;
+  background-color: #C3DCE3;
+  padding: 14px 24px;
+  border-radius: 100px;
+}
+* .container .stage3 .nimadir3 .nimadir4 .blog1 .button4 .button_text4 {
+  color: #2B788B;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 100%; /* 16px */
+  letter-spacing: -0.64px;
+}
+* .container .stage3 .nimadir3 .nimadir4 .blog2 img {
+  background-image: none;
+  max-width: -moz-fit-content;
+  max-width: fit-content;
+}
+* .container .stage4 {
+  width: 100%;
+  height: 100%;
+}
+* .container .stage4 .nimadir4 {
+  background: #FFF;
+  width: 100%;
+  padding: 24px 110px 24px 180px;
+}
+* .container .stage4 .nimadir4 .nimadir5 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+* .container .stage4 .nimadir4 .nimadir5 .left2 .advice5 {
+  max-width: 474.464px;
+  font-family: Dela Gothic One;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 100%; /* 48px */
+  letter-spacing: -1.92px;
+}
+* .container .stage4 .nimadir4 .nimadir5 .left2 .practice5 {
+  color: #757575;
+  margin-top: 30px;
+  max-width: 396.886px;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 140%; /* 25.2px */
+  letter-spacing: -0.72px;
+}
+* .container .stage4 .nimadir4 .nimadir5 .button4 {
+  margin-top: 32px;
+  width: 165px;
+  height: 44px;
+  background-color: #C3DCE3;
+  padding: 14px 24px;
+  border-radius: 100px;
+}
+* .container .stage4 .nimadir4 .nimadir5 .button4 .button_text4 {
+  color: #2B788B;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 100%; /* 16px */
+  letter-spacing: -0.64px;
+}
+* .container .foot {
+  width: 100%;
+  height: 100%;
+  border-bottom: 1px solid #E0E0E0;
+}
+* .container .foot .nimadir6 {
+  background: #FFF;
+  width: 100%;
+  padding: 24px 110px 24px 180px;
+}
+* .container .foot .nimadir6 .nimadir7 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+* .container .foot .nimadir6 .nimadir7 .chap ul {
+  display: flex;
+  list-style-type: none;
+}
+* .container .foot .nimadir6 .nimadir7 .chap ul li {
+  margin: 0px 30px 0px 0px;
+  color: #757575;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 100%;
+}
+* .container .foot .nimadir6 .nimadir7 .ung ul {
+  display: flex;
+  list-style-type: none;
+}
+* .container .foot .nimadir6 .nimadir7 .ung ul li {
+  margin: 0px 30px 0px 0px;
+  color: #757575;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 100%;
+}
+* .container footer .nimadir8 {
+  background: #FFF;
+  width: 100%;
+  padding: 24px 110px 24px 180px;
+}
+* .container footer .nimadir8 .nimadir9 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+@media (max-width: 1449px) {
+  * .container .wrapper .head ul {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  * .container .wrapper .head ul div {
+    max-width: -moz-fit-content;
+    max-width: fit-content;
+  }
+  * .container .wrapper .head ul li {
+    max-width: -moz-fit-content;
+    max-width: fit-content;
+  }
+  * .container .stage1 .nimadir1 .nimadir2 .learn1 .advice {
+    max-width: -moz-fit-content;
+    max-width: fit-content;
+  }
+  * .container .stage1 .nimadir1 .nimadir2 .learn2 img {
+    width: 90%;
+  }
+}
+@media (max-width: 1230px) {
+  * .container .wrapper .head {
+    display: flex;
+    justify-content: space-around;
+  }
+  * .container .wrapper .head ul {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  * .container .wrapper .head ul div {
+    max-width: -moz-fit-content;
+    max-width: fit-content;
+    display: none;
+  }
+  * .container .wrapper .head ul li {
+    max-width: -moz-fit-content;
+    max-width: fit-content;
+    display: none;
+  }
+  * .container .stage1 .nimadir1 .nimadir2 .learn1 .advice {
+    max-width: -moz-fit-content;
+    max-width: fit-content;
+  }
+  * .container .stage1 .nimadir1 .nimadir2 .learn2 img {
+    width: 90%;
+  }
+  * .container .stage2 .nimadir2 .nimadir3 .hand1 img {
+    width: 80%;
+  }
+  * .container .stage3 .nimadir3 .nimadir4 .blog2 img {
+    width: 85%;
+  }
+  * .stage4 .nimadir4 .nimadir5 .right1 img {
+    width: 80%;
+  }
+}
+@media (max-width: 950px) {
+  * .container .wrapper .head {
+    display: flex;
+    justify-content: space-around;
+  }
+  * .container .wrapper .head ul {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  * .container .wrapper .head ul div {
+    max-width: -moz-fit-content;
+    max-width: fit-content;
+    display: none;
+  }
+  * .container .wrapper .head ul li {
+    max-width: -moz-fit-content;
+    max-width: fit-content;
+    display: none;
+  }
+  * .container .stage1 .nimadir1 .nimadir2 .learn1 .advice {
+    max-width: -moz-fit-content;
+    max-width: fit-content;
+    font-size: 30px;
+  }
+  * .container .stage1 .nimadir1 .nimadir2 .learn1 .practice {
+    font-size: 14px;
+  }
+  * .container .stage1 .nimadir1 .nimadir2 .learn2 img {
+    width: 90%;
+  }
+  * .container .stage2 .nimadir2 .nimadir3 .hand1 img {
+    width: 80%;
+  }
+  * .container .stage2 .nimadir2 .nimadir3 .hand2 .advice2 {
+    font-size: 30px;
+  }
+  * .container .stage2 .nimadir2 .nimadir3 .hand2 .practice2 {
+    font-size: 14px;
+  }
+  * .container .stage2 .nimadir2 .nimadir3 .hand2 .rating2 img {
+    width: 25%;
+  }
+  * .container .stage2 .nimadir2 .nimadir3 .hand2 .rating2 .jostik2 img {
+    width: 50%;
+  }
+  * .container .stage3 .nimadir3 .nimadir4 .blog1 .advice4 {
+    font-size: 30px;
+  }
+  * .container .stage3 .nimadir3 .nimadir4 .blog2 img {
+    width: 85%;
+  }
+  * .stage4 .nimadir4 .nimadir5 .right1 img {
+    display: none;
+  }
+  * .stage4 .nimadir4 .nimadir5 .left2 .advice5 p {
+    font-size: 30px;
+  }
+  * .foot .nimadir6 .nimadir7 .chap {
+    display: none;
+  }
+  * .foot .nimadir6 .nimadir7 .ung {
+    display: none;
+  }
+}
+@media (max-width: 650px) {
+  * .container .wrapper .head {
+    display: flex;
+    justify-content: space-between;
+  }
+  * .container .wrapper .head ul {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  * .container .wrapper .head ul div {
+    max-width: -moz-fit-content;
+    max-width: fit-content;
+    display: none;
+  }
+  * .container .wrapper .head ul li {
+    max-width: -moz-fit-content;
+    max-width: fit-content;
+    display: none;
+  }
+  * .container .wrapper .head .alex {
+    display: none;
+  }
+  * .container .stage1 .nimadir1 .nimadir2 .learn1 .advice {
+    max-width: -moz-fit-content;
+    max-width: fit-content;
+    font-size: 25px;
+  }
+  * .container .stage1 .nimadir1 .nimadir2 .learn1 .practice {
+    font-size: 15px;
+    max-width: -moz-fit-content;
+    max-width: fit-content;
+  }
+  * .container .stage1 .nimadir1 .nimadir2 .learn1 .rating img {
+    display: none;
+  }
+  * .container .stage1 .nimadir1 .nimadir2 .learn1 .rating .jostik img {
+    display: none;
+  }
+  * .container .stage1 .nimadir1 .nimadir2 .learn2 img {
+    display: none;
+  }
+  * .container .stage2 .nimadir2 .nimadir3 .hand1 img {
+    display: none;
+  }
+  * .container .stage2 .nimadir2 .nimadir3 .hand2 .advice2 {
+    font-size: 30px;
+  }
+  * .container .stage2 .nimadir2 .nimadir3 .hand2 .practice2 {
+    font-size: 14px;
+  }
+  * .container .stage2 .nimadir2 .nimadir3 .hand2 .rating2 img {
+    display: none;
+  }
+  * .container .stage2 .nimadir2 .nimadir3 .hand2 .rating2 .jostik2 img {
+    display: none;
+  }
+  * .container .stage3 .nimadir3 .nimadir4 .blog1 .advice4 {
+    font-size: 30px;
+    max-width: -moz-fit-content;
+    max-width: fit-content;
+  }
+  * .container .stage3 .nimadir3 .nimadir4 .blog2 img {
+    display: none;
+  }
+  * .stage4 .nimadir4 .nimadir5 .right1 img {
+    width: 80%;
+  }
+  * .stage4 .nimadir4 .nimadir5 .left2 .advice5 p {
+    font-size: 30px;
+  }
+  * .foot .nimadir6 .nimadir7 .chap {
+    display: none;
+  }
+  * .foot .nimadir6 .nimadir7 .ung {
+    display: none;
+  }
+  * footer {
+    display: none;
+  }
+}/*# sourceMappingURL=main.css.map */

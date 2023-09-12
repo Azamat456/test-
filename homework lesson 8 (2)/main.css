@@ -1,0 +1,274 @@
+body{
+    margin: 0 auto;
+    padding: 0 auto;
+    background: white;
+
+}
+
+.wrapper{
+    width: 400px;
+    height: 401px;
+    border: 1px solid black;
+    box-sizing: border-box;
+    position: absolute;
+    left: 23px;
+    top: 25px;
+}
+.black1{
+    width: 50px;
+    height: 50px;
+    background-color: black;
+    position: absolute;
+    left: 50px ;
+}
+.black2{
+    width: 50px;
+    height: 50px;
+    background-color: black;
+    position: absolute;
+    left: 150px ;
+}
+.black3{
+    width: 50px;
+    height: 50px;
+    background-color: black;
+    position: absolute;
+    left: 250px;
+}
+.black4{
+    width: 50px;
+    height: 50px;
+    background-color: black;
+    position: absolute;
+    left: 350px ;
+}
+.black5{
+    width: 50px;
+    height: 50px;
+    background-color: black;
+    position: absolute;
+    top:50px;
+}
+.black6{
+    width: 50px;
+    height: 50px;
+    background-color: black;
+    position: absolute;
+    left: 100px ;
+    top: 50px;
+}
+.black7{
+    width: 50px;
+    height: 50px;
+    background-color: black;
+    position: absolute;
+    left: 200px ;
+    top: 50px;
+}
+.black8{
+    width: 50px;
+    height: 50px;
+    background-color: black;
+    position: absolute;
+    left: 300px ;
+    top: 50px;
+}
+.black9{
+    width: 50px;
+    height: 50px;
+    background-color: black;
+    position: absolute;
+    top:100px;
+    left: 50px;
+}
+.black10{
+    width: 50px;
+    height: 50px;
+    background-color: black;
+    position: absolute;
+    left: 150px ;
+    top: 100px;
+}
+.black11{
+    width: 50px;
+    height: 50px;
+    background-color: black;
+    position: absolute;
+    left: 250px;
+    top: 100px;
+}
+.black12{
+    width: 50px;
+    height: 50px;
+    background-color: black;
+    position: absolute;
+    left: 350px;
+    top: 100px;
+}
+.black13{
+    width: 50px;
+    height: 50px;
+    background-color: black;
+    position: absolute;
+    top: 100px;
+    left: 250px;
+}
+.black14{
+    width: 50px;
+    height: 50px;
+    background-color: black;
+    position: absolute;
+    left: 0px;
+    top: 150px;
+}
+.black15{
+    width: 50px;
+    height: 50px;
+    background-color: black;
+    position: absolute;
+    left: 100px;
+    top: 150px;
+}
+.black16{
+    width: 50px;
+    height: 50px;
+    background-color: black;
+    position: absolute;
+    left: 200px;
+    top: 150px;
+}
+.black17{
+    width: 50px;
+    height: 50px;
+    background-color: black;
+    position: absolute;
+    left: 300px;
+    top: 150px;
+}
+.black18{
+    width: 50px;
+    height: 50px;
+    background-color: black;
+    position: absolute;
+    left: 50px;
+    top: 200px;
+}
+.black19{
+    width: 50px;
+    height: 50px;
+    background-color: black;
+    position: absolute;
+    left: 150px;
+    top: 200px;
+}
+.black20{
+    width: 50px;
+    height: 50px;
+    background-color: black;
+    position: absolute;
+    top: 200px;
+    left: 250px;
+}
+.black21{
+    width: 50px;
+    height: 50px;
+    background-color: black;
+    position: absolute;
+    top: 200px;
+    left: 350px;
+}
+.black22{
+    width: 50px;
+    height: 50px;
+    background-color: black;
+    position: absolute;
+    top: 250px;
+}
+.black23{
+    width: 50px;
+    height: 50px;
+    background-color: black;
+    position: absolute;
+    left: 100px;
+    top: 250px;
+}
+.black24{
+    width: 50px;
+    height: 50px;
+    background-color: black;
+    position: absolute;
+    left: 200px;
+    top: 250px;
+}
+.black25{
+    width: 50px;
+    height: 50px;
+    background-color: black;
+    position: absolute;
+    left: 300px;
+    top: 250px;
+}
+.black26{
+    width: 50px;
+    height: 50px;
+    background-color: black;
+    position: absolute;
+    left: 50px;
+    top: 300px;
+}
+.black27{
+    width: 50px;
+    height: 50px;
+    background-color: black;
+    position: absolute;
+    left: 150px;
+    top: 300px;
+}
+.black28{
+    width: 50px;
+    height: 50px;
+    background-color: black;
+    position: absolute;
+    left: 250px;
+    top: 300px;
+}
+.black29{
+    width: 50px;
+    height: 50px;
+    background-color: black;
+    position: absolute;
+    left: 350px;
+    top: 300px;
+}
+.black30{
+    width: 50px;
+    height: 50px;
+    background-color: black;
+    position: absolute;
+    left: 0px;
+    top: 350px;
+}
+.black31{
+    width: 50px;
+    height: 50px;
+    background-color: black;
+    position: absolute;
+    left: 100px;
+    top: 350px;
+}
+.black32{
+    width: 50px;
+    height: 50px;
+    background-color: black;
+    position: absolute;
+    left: 200px;
+    top: 350px;
+}
+.black11{
+    width: 50px;
+    height: 50px;
+    background-color: black;
+    position: absolute;
+    left: 300px;
+    top: 350px;
+}

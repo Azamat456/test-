@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+* .container {
+  width: 1440px;
+  height: 1669px;
+  background: #FEF9F2;
+}
+* .container .wrapper {
+  padding: 198px 149px 0px 110px;
+}
+* .container .wrapper .head .headp {
+  color: #FF9C08;
+  font-family: DM Sans;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 1.2px;
+  text-transform: uppercase;
+}
+* .container .wrapper .text .bik {
+  color: #090909;
+  font-family: Roboto;
+  font-size: 42px;
+  font-weight: 700;
+  line-height: 58.002px;
+}/*# sourceMappingURL=main.css.map */

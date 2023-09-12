@@ -1,0 +1,55 @@
+html, body{
+  width: 100%;
+  height: 100%;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+.wrapper{
+  padding: 25px;
+  width: 750px;
+  height: 300px;
+  display: flex;
+  gap: 20px;
+  background-color: #585454;
+}
+.text{
+ 
+  background-color:aqua;
+  height: 100%;
+  width: 40%;
+  display: flex;
+
+}
+.text span{
+  justify-content: flex-start;
+  align-items: flex-end;
+ 
+  font-size: 45px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #585454;
+}
+.column{
+  width: 60%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.column .line1, .line2, .line3{
+  width: 100%;
+  height: calc(100% / 3);
+  background-color:aqua; 
+}
+.column .line2{
+  display: flex;
+  gap: 20px;
+  background-color: #585454;
+}
+  
+
+.column .line2 .box1, .box2{
+  width: 50%;
+  height: 100%;
+  background-color: aqua;
+}

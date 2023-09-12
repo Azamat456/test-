@@ -1,0 +1,25 @@
+.img1{
+   width: 400px; 
+   opacity: 20%;
+   height: 300px;
+}
+.img1:hover{
+    opacity: 100%;
+    transition: all 2s;
+}
+.img2{
+    width: 400px;
+    opacity: 10%;
+}
+.img2:hover{
+    opacity: 100%;
+    transition: all 2s;
+}
+.img3{
+    height: 300px;
+    opacity: 5%;
+}
+.img3:hover{
+    opacity: 100% ;
+    transition: all 2s;
+}

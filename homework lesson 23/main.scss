@@ -1,0 +1,414 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600&family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&family=Nunito+Sans:opsz,wght@6..12,600;6..12,800&family=Overpass:wght@700&family=Poppins:wght@500&family=Raleway:wght@500;700&family=Red+Hat+Text:wght@500&family=Roboto:wght@500&family=Rubik:wght@300;500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    html,body{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: black;
+        .container{
+            display: flex;
+            justify-content: center;
+            align-items:center;
+            .flex-container{
+                display: flex;
+                // align-items: center;
+                justify-content: center;
+                .big{
+                    width: 255px;
+                    height: 518px;
+                    border-radius: 15px;
+                    .i1{
+                        border-radius: 50%;
+                        border: 3px solid white;
+                        margin: 12px 0px 0px 15px;
+                    }
+                    .tepa{
+                        width: 255px;
+                        height: 518px;  
+                        border-radius: 15px;
+                        background:#5747EA;
+                        .report{
+                            margin: 31px 0px 0px 32px;
+                            color: #BBC0FF;
+                            font-family: Rubik;
+                            font-size: 15px;
+                            font-style: normal;
+                            font-weight: 400;
+                            line-height: normal;
+                        }
+                        .name{
+                            margin:0px 0px 0px 32px;
+                            width: 100px;
+                            color: #FFF;
+                            font-family: Rubik;
+                            font-size: 40px;
+                            font-style: normal;
+                            font-weight: 300;
+                            line-height: normal; 
+                        }
+                    }
+                    .past{
+                        margin: 110px 0px 0px 0px;
+                        width: 255px;
+                        height: 164px;
+                        border-radius: 15px;
+                        background: #1C204B;
+                        padding: 26px 0px 0px 0px ;
+                        .kun{
+                            margin:0px 0px 21px 32px ;
+                            color: #7078C9;
+                            font-family: Rubik;
+                            font-size: 18px;
+                            font-style: normal;
+                            font-weight: 400;
+                            line-height: normal; 
+                        }
+                        .havta{
+                            margin:0px 0px 21px 32px ;
+                            color: #7078C9;
+                            font-family: Rubik;
+                            font-size: 18px;
+                            font-style: normal;
+                            font-weight: 400;
+                            line-height: normal;
+                        }
+                        .oy{
+                            margin:0px 0px 21px 32px ;
+                            
+                            color: #7078C9;
+                            font-family: Rubik;
+                            font-size: 18px;
+                            font-style: normal;
+                            font-weight: 400;
+                            line-height: normal;
+                        }
+                        .kun:hover{
+                            color:#FFF;
+                            cursor: pointer;
+                        }
+                        .havta:hover{
+                            color:#FFF;
+                            cursor: pointer;
+                        }
+                        .oy:hover{
+                            color:#FFF;
+                            cursor: pointer;
+                        }
+                    } 
+                }
+            }
+            .small{
+                display: flex;
+                flex-wrap: wrap;
+                width: 900px;
+                padding: 0px 0px 0px 30px;
+                .small1{
+                    
+                    position: relative;
+                    .cover2{
+                        position:absolute;
+                        top: 45px;
+                        width: 255px;
+                        height: 199px;
+                        background-color:#1C204B;
+                        border-radius:15px;
+                        padding: 29px 29px 32px 30px;
+                        .tepa2{
+                            display: flex;
+                            justify-content: space-between;
+                            color: #FFF;
+                            font-family: Rubik;
+                            font-size: 18px;
+                            font-style: normal;
+                            font-weight: 500;
+                            line-height: normal;
+                        }
+                        .soat2{
+                            margin-top: 10px;
+                            color: #FFF;
+                            font-family: Rubik;
+                            font-size: 56px;
+                            font-style: normal;
+                            font-weight: 300;
+                            line-height: normal;
+                        }
+                        .week2{
+                            color: #BBC0FF;
+                            font-family: Rubik;
+                            font-size: 15px;
+                            font-style: normal;
+                            font-weight: 400;
+                            line-height: normal;
+                        }
+                    }
+                }
+                .cover2:hover{
+                    background:#33397A;
+                    cursor: pointer;
+                    
+                }
+                
+                
+                
+                .small2{
+                    position: relative;
+                    margin-left: 30px;
+                    .cover3{
+                        
+                        position:absolute;
+                        top: 45px;
+                        width: 255px;
+                        height: 199px;
+                        background-color:#1C204B;
+                        border-radius:15px;
+                        padding: 29px 29px 32px 30px;
+                        .tepa3{
+                            display: flex;
+                            justify-content: space-between;
+                            color: #FFF;
+                            font-family: Rubik;
+                            font-size: 18px;
+                            font-style: normal;
+                            font-weight: 500;
+                            line-height: normal;
+                        }
+                        .soat3{
+                            margin-top: 10px;
+                            color: #FFF;
+                            font-family: Rubik;
+                            font-size: 56px;
+                            font-style: normal;
+                            font-weight: 300;
+                            line-height: normal;
+                        }
+                        .week3{
+                            color: #BBC0FF;
+                            font-family: Rubik;
+                            font-size: 15px;
+                            font-style: normal;
+                            font-weight: 400;
+                            line-height: normal;
+                        }
+                    }
+                }
+                .cover3:hover{
+                    background:#33397A;
+                    cursor: pointer;
+                }
+                
+                .small3{
+                    position: relative;
+                    margin-left: 30px;
+                    .cover4{
+                        
+                        position:absolute;
+                        top: 45px;
+                        width: 255px;
+                        height: 199px;
+                        background-color:#1C204B;
+                        border-radius:15px;
+                        padding: 29px 29px 32px 30px;
+                        .tepa4{
+                            display: flex;
+                            justify-content: space-between;
+                            color: #FFF;
+                            font-family: Rubik;
+                            font-size: 18px;
+                            font-style: normal;
+                            font-weight: 500;
+                            line-height: normal;
+                        }
+                        .soat4{
+                            margin-top: 10px;
+                            color: #FFF;
+                            font-family: Rubik;
+                            font-size: 56px;
+                            font-style: normal;
+                            font-weight: 300;
+                            line-height: normal;
+                        }
+                        .week4{
+                            color: #BBC0FF;
+                            font-family: Rubik;
+                            font-size: 15px;
+                            font-style: normal;
+                            font-weight: 400;
+                            line-height: normal;
+                        }
+                    }
+                }
+                .cover4:hover{
+                    background:#33397A;
+                    cursor: pointer;
+                    
+                }
+                
+                
+                .small4{
+                    position: relative;
+                    margin-top: 30px;
+                    .cover5{
+                        
+                        position:absolute;
+                        top: 45px;
+                        width: 255px;
+                        height: 199px;
+                        background-color:#1C204B;
+                        border-radius:15px;
+                        padding: 29px 29px 32px 30px;
+                        .tepa5{
+                            display: flex;
+                            justify-content: space-between;
+                            color: #FFF;
+                            font-family: Rubik;
+                            font-size: 18px;
+                            font-style: normal;
+                            font-weight: 500;
+                            line-height: normal;
+                        }
+                        .soat5{
+                            margin-top: 10px;
+                            color: #FFF;
+                            font-family: Rubik;
+                            font-size: 56px;
+                            font-style: normal;
+                            font-weight: 300;
+                            line-height: normal;
+                        }
+                        .week5{
+                            color: #BBC0FF;
+                            font-family: Rubik;
+                            font-size: 15px;
+                            font-style: normal;
+                            font-weight: 400;
+                            line-height: normal;
+                        }
+                    }
+                }
+                .cover5:hover{
+                    background:#33397A;
+                    cursor: pointer;
+                    
+                }
+                
+                .small5{
+                    position: relative;
+                    margin: 30px 0px 0px 30px;
+                    .cover6{
+                        
+                        position:absolute;
+                        top: 45px;
+                        width: 255px;
+                        height: 199px;
+                        background-color:#1C204B;
+                        border-radius:15px;
+                        padding: 29px 29px 32px 30px;
+                        .tepa6{
+                            display: flex;
+                            justify-content: space-between;
+                            color: #FFF;
+                            font-family: Rubik;
+                            font-size: 18px;
+                            font-style: normal;
+                            font-weight: 500;
+                            line-height: normal;
+                        }
+                        .soat6{
+                            margin-top: 10px;
+                            color: #FFF;
+                            font-family: Rubik;
+                            font-size: 56px;
+                            font-style: normal;
+                            font-weight: 300;
+                            line-height: normal;
+                        }
+                        .week6{
+                            color: #BBC0FF;
+                            font-family: Rubik;
+                            font-size: 15px;
+                            font-style: normal;
+                            font-weight: 400;
+                            line-height: normal;
+                        }
+                    }
+                }
+                .cover6:hover{
+                    background:#33397A;
+                    cursor: pointer;
+                    
+                }
+                
+                .small6{
+                    position: relative;
+                    margin: 30px 30px 0px 30px;
+                    .cover7{
+                        
+                        position:absolute;
+                        top: 45px;
+                        width: 255px;
+                        height: 199px;
+                        background-color:#1C204B;
+                        border-radius:15px;
+                        padding: 29px 29px 32px 30px;
+                        .tepa7{
+                            display: flex;
+                            justify-content: space-between;
+                            color: #FFF;
+                            font-family: Rubik;
+                            font-size: 18px;
+                            font-style: normal;
+                            font-weight: 500;
+                            line-height: normal;
+                        }
+                        .soat7{
+                            margin-top: 10px;
+                            color: #FFF;
+                            font-family: Rubik;
+                            font-size: 56px;
+                            font-style: normal;
+                            font-weight: 300;
+                            line-height: normal;
+                        }
+                        .week7{
+                            color: #BBC0FF;
+                            font-family: Rubik;
+                            font-size: 15px;
+                            font-style: normal;
+                            font-weight: 400;
+                            line-height: normal;
+                        }
+                    }
+                }
+                .cover7:hover{
+                    background:#33397A;
+                    cursor: pointer;
+                    
+                }
+            }
+        }
+        
+        @media (max-width: 1160px) {
+            body{
+                height: fit-content;
+                margin: 50px auto;
+                
+                .container {
+                    grid-template-columns: repeat(3, auto);
+                    row-gap: 24px;
+                    .flex-container{
+                        grid-template-columns: repeat(3, auto);
+                        row-gap: 24px;
+                    }
+                }
+            }
+            
+        }
+    }
+}
+
+

@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+.container .wrapper header .head ul li {
+  color: #274C5B;
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: 700;
+  list-style-type: none;
+  text-decoration: none;
+}
+
+main .side2 .title p {
+  color: #274C5B;
+  font-family: Roboto;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+main .side2 .price {
+  color: #274C5B;
+  font-family: Open Sans;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+main .side2 .info p {
+  width: 658px;
+  color: #525C60;
+  font-family: Open Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 165.4%;
+}/*# sourceMappingURL=main.css.map */

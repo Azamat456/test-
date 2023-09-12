@@ -1,0 +1,50 @@
+.image1:hover{
+    filter: blur(5px);
+    transition-duration:2s;
+    transition-timing-function: linear;
+}
+.image2:hover{
+    filter: saturate(200%);
+    transition-duration:2s;
+    transition-timing-function: linear;
+}
+.image3:hover{
+    filter: invert(100%);
+    transition-duration:2s;
+    transition-timing-function: linear;
+}
+.image4:hover{
+    filter: grayscale(100%);
+    transition-duration:2s;
+    transition-timing-function: linear;
+}
+.image5:hover{
+    filter: brightness(200%);
+    transition-duration:2s;
+    transition-timing-function: linear;
+}
+.image6:hover{
+    filter: contrast(200%);
+    transition-duration:2s;
+    transition-timing-function: linear;
+}
+.image7:hover{
+    filter: opacity(25%);
+    transition-duration:2s;
+    transition-timing-function: linear;
+}
+.image8:hover{
+    filter: hue-rotate(100deg);
+    transition-duration:2s;
+    transition-timing-function: linear;
+}
+.image9:hover{
+    filter: drop-shadow(200%);
+    transition-duration:2s;
+    transition-timing-function: linear;
+}
+.image10:hover{
+    filter: sepia(200%);
+    transition-duration:2s;
+    transition-timing-function: linear;
+}

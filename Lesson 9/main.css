@@ -1,0 +1,18 @@
+.test::first-letter{
+color: rgb(30, 135, 30);
+font-size: 40px;
+}
+li::marker{
+    color: red;
+}
+.text2{
+    color: green;
+    
+}
+.text2::selection{
+    color: red;
+    background-color: green;
+}
+.text3::selection{
+    background-color:red;
+}

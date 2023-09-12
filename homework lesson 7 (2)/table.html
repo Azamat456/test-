@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    *{
+        margin: 0 auto;
+        padding: 0 auto;
+    }
+    .wrapper {
+        width: 440px;
+        height: 217px;
+        border: 2px outset;
+        margin: 10px auto;
+    }
+    .text1{
+        padding-left: 17px;
+    }
+.text2{
+    padding-left: 4px;
+}
+    
+</style>
+<body>
+   <div class="wrapper">
+    <table border="1">
+        <tr>
+            <th class="day" rowspan="3">Day</th>
+            <th class="seminar" colspan="3">Seminar</th>
+        </tr>
+        <tr>
+            <th class="schedule" colspan="2">Schedule</th>
+            <th class="topic" rowspan="2">Topic</th>
+        </tr>
+        <tr>
+            <th class="begin" >Begin</th>
+            <th class="end">End</th>
+        </tr>
+        <tr>
+            <td  class="monday" rowspan="2">Monday</td>
+            <td  class="monday.begin" rowspan="2" bgcolor=" lightyellow">8:00 a.m.</td>
+            <td  class="monday.end" rowspan="2" bgcolor="purple">5:00 p.m.</td>
+            <td class="text1">Introduction to Xtml</td>
+        </tr>
+        <tr>
+            <td class="text2" >Validity: DTD and RELAX NG</td>
+        </tr>
+        <tr>
+            <td class="tuesday" rowspan="3">Tuesday</td>
+            <td class="tuesday.begin1" bgcolor="lightyellow">8:00 a.m.</td>
+            <td class="tuesday.end1" lightyellow bgcolor="lightyellow">11:00 a.m.</td>
+            <td class="text3" rowspan="1">XPATH </td>
+        </tr>
+        <tr>
+            <td class="tuesday.begin2" bgcolor="lightyellow">11:00 a.m.</td>
+            <td class="tuesday.end2" bgcolor="lightgreen"> 2:00 p.m.</td>
+        </tr>
+        <tr>
+            <td  class="tuesday.begin3" bgcolor="lightgreen">2:00 p.m.</td>
+            <td class="tuesday.begin3" bgcolor="purple">5:00 p.m.</td>
+            <td rowspan="1" class="text4"  >XSL Transformations</td>
+        </tr>
+        <tr>
+            <td class="wednesday">Wednesday</td>
+            <td class="wednesday.begin4" bgcolor="lightyellow">8:00 a.m.</td>
+            <td class="wednesday.end4" bgcolor="lightgreen">12:00 p.m.</td>
+            <td class="text5">XSL Formating Objects</td>
+
+        </tr>
+    </table>
+   </div> 
+</body>
+</html>
